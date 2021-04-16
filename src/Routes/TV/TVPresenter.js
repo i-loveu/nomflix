@@ -23,7 +23,8 @@ const TVPresenter = ({
             <Helmet>
                 <title>TV | Nomflix</title>
             </Helmet>
-            loading ? <Loader></Loader> : (
+            {
+                loading ? (<Loader></Loader>) : (
         <Container>
             {topRated && topRated.length > 0 && (
                 <Section title="Top Rated Shows">
@@ -72,7 +73,7 @@ const TVPresenter = ({
                 error && <Message text={error} color="#e74c3c"/>
             }            
         </Container>
-    )
+    )}
 
 
         </>
