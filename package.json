@@ -26,7 +26,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
-  "homepage": "https://i-loveu.github.io/nomflix",
+  "homepage": "https://happy-ritchie-60843f.netlify.app",
   "eslintConfig": {
     "extends": [
       "react-app",
